@@ -1,1 +1,44 @@
-
+body{
+    font-family: Verdana, Arial, sans-serif;
+}
+h1, h2, h3{
+    font-family: Arial, sans-serif;
+}
+.produit{
+    color: coral;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.reference{
+    font-style: italic;
+    background-color: lightgrey;
+}
+.general{
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+#fin{
+    color: blue;
+    font-size: small;
+    background-color: #c0c0c0;
+}
+#fin p:first-of-type{
+    text-align: right;
+}
+#premPartie h3{
+    color: red;
+    text-transform: uppercase;
+}
+blockquote{
+    text-indent: 20px;
+}
+blockquote p::first-letter{
+    font-family: fantasy;
+    color: green;
+    font-weight: bold;
+}
+th{
+    font-variant: small-caps;
+    text-decoration-line: underline;
+}
